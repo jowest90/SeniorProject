@@ -1,0 +1,52 @@
+﻿<html>
+<!--This page allows users to create an account -->
+<head>
+    <title>Create Account</title>
+    <meta charset="utf-8">
+    <style>
+        .topbanner {
+            background-color: pink;
+            text-align: center;
+            height: 50px;
+            width: 100%;
+        }
+
+        .createAccount {
+            border: 1px solid black;
+            text-align: center;
+            width: 25%;
+            margin-top: 100px;
+            margin-left: 37%;
+        }
+
+        .textBox {
+            width: 65%;
+            margin-left: 10px;
+            float: left;
+        }
+    </style>
+</head>
+<!--Users enter their account information then hits submit to confirm-->
+<body style="position: relative; min-height: 100%; top: 0px;">
+    <div class="topbanner" id="banner">
+        <h1>Tools of the Trade</h1>
+    </div>
+    <div class="createAccount" id="Create Account">
+        <p>Create Account</p>
+        <form action="createUser.html">
+            ID:<br>
+            <input type="text" name="id"><br>
+            Name:<br>
+            <input type="text" name="name"><br> 
+            Email:<br>
+            <input type="text" name="email"><br>
+            Password:<br>
+            <input type="text" name="password"><br>
+            Confirm Password:<br>
+            <input type="text" name="Confirm Password">
+            <br><br>
+            <input type="submit" value="Create Account"><br>
+        </form>
+    </div>
+</body>
+</html>

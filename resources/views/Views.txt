@@ -1,0 +1,5 @@
+This contains all of our user/admin webpages and designs
+
+Layouts: Our design/overall look of all webpages
+admin: all admin webpages
+auth: all of our login/registration/password reset webpages

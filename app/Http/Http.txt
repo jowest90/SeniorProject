@@ -1,0 +1,4 @@
+This contains all the controller files & route files
+
+Controllers: the functionality/logic of our project
+Middleware: The authentication/permissions of our project

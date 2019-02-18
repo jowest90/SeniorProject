@@ -1,0 +1,8 @@
+The Following items that need to be transfered to server:
+home.blade under views & admin folder
+profile.blade under views & admin folder
+routes.php
+homeController
+adminController
+
+reminder: user needs certification attribute
